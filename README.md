@@ -1,13 +1,3 @@
-<!--
-  HOW TO USE THIS FILE
-  1. Create a public repository named casildata (github.com/casildata/casildata).
-  2. Paste this file in as README.md, then delete this comment block.
-  3. Project links are managed in the "Project links" block at the very bottom.
-     Only public repos are linked, so no link on this page opens a missing page.
-     When you publish a repo, follow the 3 steps in that block.
-  4. Security labs: publish only after screenshots are added and the Lab 5 FTP password is blurred.
--->
-
 # Hi, I'm Javier Casildo 👋
 
 **Data Analyst and Data Scientist (M.S. Data Science) with a growing focus on security analytics.**
@@ -82,30 +72,30 @@ Each project started as Texas Tech graduate coursework and was rebuilt to run fr
 
 | Project | What it does | Key result | Status |
 |---|---|---|---|
-| **covid-social-media-etl-pipeline** | Python ETL that joins four public datasets with mismatched keys, grains, and date formats; drops PII before aggregation | Cases and reported anxiety moved together over 27 periods (r = 0.80, not causal); 2026 refactor matches the original outputs exactly | Publishing soon |
-| **nba-star-schema-data-warehouse** | Star-schema warehouse with an ETL pipeline, data-quality checks, and 8 analytic SQL queries | Rejects all 3 planted corrupt rows; 8/8 tests pass | Publishing soon |
+| **covid-social-media-etl-pipeline** | Python ETL that joins four public datasets with mismatched keys, grains, and date formats; drops PII before aggregation | Cases and reported anxiety moved together over 27 periods (r = 0.80, not causal); 2026 refactor matches the original outputs exactly | *Coming soon* |
+| **nba-star-schema-data-warehouse** | Star-schema warehouse with an ETL pipeline, data-quality checks, and 8 analytic SQL queries | Rejects all 3 planted corrupt rows; 8/8 tests pass | *Coming soon* |
 
 ### Data Science & Machine Learning
 
 | Project | What it does | Key result | Status |
 |---|---|---|---|
 | [**malware-dns-threat-detection-ml**][malware-dns] | Classifies malware from memory-forensics features and flags malicious domains from DNS name features | Malware: 99.4–100% recall on families held out of training. Domains: 17–33% recall at a 1% false-positive budget, with a write-up of why | Public |
-| **email-spam-detection-ml** | Compares five classifiers and an ensemble for spam filtering | Random forest 94.95% accuracy; found and fixed a data-leakage bug in the kNN model | Publishing soon |
-| **wine-quality-multivariate-analysis** | PCA, clustering, outlier detection, and discriminant analysis on 6,497 wines | k-means separates red from white with 98.6% agreement; fixes an outlier-rule bug in the original coursework | Publishing soon |
+| **email-spam-detection-ml** | Compares five classifiers and an ensemble for spam filtering | Random forest 94.95% accuracy; found and fixed a data-leakage bug in the kNN model | *Coming soon* |
+| **wine-quality-multivariate-analysis** | PCA, clustering, outlier detection, and discriminant analysis on 6,497 wines | k-means separates red from white with 98.6% agreement; fixes an outlier-rule bug in the original coursework | *Coming soon* |
 
 ### Simulation, Optimization & Risk
 
 | Project | What it does | Key result | Status |
 |---|---|---|---|
 | [**cyber-risk-monte-carlo**][cyber-risk] | Monte Carlo model of annual cyber losses, with control ROI and a Bayesian rate update | Loss exceedance curve, ROI with uncertainty per control, one-page brief for leadership | Public |
-| **soc-alert-triage-simulation** | Discrete-event simulation of a two-tier security operations team | One more tier-2 analyst cuts confirmed-incident wait from 33.9 to 4.4 minutes | Publishing soon |
-| **security-budget-optimizer** | Mixed-integer program that chooses the security controls that remove the most expected loss for a budget | Verified optimal against all 262,144 combinations | Publishing soon |
+| [**soc-alert-triage-simulation**][soc-sim] | Discrete-event simulation of a two-tier security operations team | One more tier-2 analyst cuts confirmed-incident wait from 33.9 to 4.4 minutes | Public |
+| **security-budget-optimizer** | Mixed-integer program that chooses the security controls that remove the most expected loss for a budget | Verified optimal against all 262,144 combinations | *Coming soon* |
 
 ### Security Labs
 
 | Project | What it does | Status |
 |---|---|---|
-| **security-labs-writeups** | Five course lab write-ups: vulnerability scanning, packet analysis, PKI, web attacks, and host hardening | Publishing soon |
+| **security-labs-writeups** | Five course lab write-ups: vulnerability scanning, packet analysis, PKI, web attacks, and host hardening | *Coming soon* |
 
 ---
 
@@ -151,13 +141,13 @@ I'm open to data analyst, data scientist, and entry-level security roles, and I'
 <!-- Published -->
 [malware-dns]:   https://github.com/casildata/malware-dns-threat-detection-ml
 [cyber-risk]:    https://github.com/casildata/cyber-risk-monte-carlo
+[soc-sim]:       https://github.com/casildata/soc-alert-triage-simulation
 
 <!-- Not published yet:
   [covid-etl]:     https://github.com/casildata/covid-social-media-etl-pipeline
   [nba-dw]:        https://github.com/casildata/nba-star-schema-data-warehouse
   [spam]:          https://github.com/casildata/email-spam-detection-ml
   [wine]:          https://github.com/casildata/wine-quality-multivariate-analysis
-  [soc-sim]:       https://github.com/casildata/soc-alert-triage-simulation
   [budget-opt]:    https://github.com/casildata/security-budget-optimizer
   [security-labs]: https://github.com/casildata/security-labs-writeups
 -->
