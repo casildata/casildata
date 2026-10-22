@@ -89,7 +89,7 @@ Each project started as Texas Tech graduate coursework and was rebuilt to run fr
 |---|---|---|---|
 | [**cyber-risk-monte-carlo**][cyber-risk] | Monte Carlo model of annual cyber losses, with control ROI and a Bayesian rate update | Loss exceedance curve, ROI with uncertainty per control, one-page brief for leadership | Public |
 | [**soc-alert-triage-simulation**][soc-sim] | Discrete-event simulation of a two-tier security operations team | One more tier-2 analyst cuts confirmed-incident wait from 33.9 to 4.4 minutes | Public |
-| [**security-budget-optimizer**][budget-opt] | Mixed-integer program that chooses the security controls that remove the most expected loss for a budget | Verified optimal against all 262,144 combinations | *Coming soon* |
+| [**security-budget-optimizer**][budget-opt] | Mixed-integer program that chooses the security controls that remove the most expected loss for a budget | Verified optimal against all 262,144 combinations | Public |
 
 ### Security Labs
 
