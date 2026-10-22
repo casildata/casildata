@@ -80,7 +80,7 @@ Each project started as Texas Tech graduate coursework and was rebuilt to run fr
 | Project | What it does | Key result | Status |
 |---|---|---|---|
 | [**malware-dns-threat-detection-ml**][malware-dns] | Classifies malware from memory-forensics features and flags malicious domains from DNS name features | Malware: 99.4–100% recall on families held out of training. Domains: 17–33% recall at a 1% false-positive budget, with a write-up of why | Public |
-| **email-spam-detection-ml** | Compares five classifiers and an ensemble for spam filtering | Random forest 94.95% accuracy; found and fixed a data-leakage bug in the kNN model | *Coming soon* |
+| [**email-spam-detection-ml**][spam] | Compares five classifiers and an ensemble for spam filtering | Random forest 94.95% accuracy; found and fixed a data-leakage bug in the kNN model | Public |
 | **wine-quality-multivariate-analysis** | PCA, clustering, outlier detection, and discriminant analysis on 6,497 wines | k-means separates red from white with 98.6% agreement; fixes an outlier-rule bug in the original coursework | *Coming soon* |
 
 ### Simulation, Optimization & Risk
@@ -89,7 +89,7 @@ Each project started as Texas Tech graduate coursework and was rebuilt to run fr
 |---|---|---|---|
 | [**cyber-risk-monte-carlo**][cyber-risk] | Monte Carlo model of annual cyber losses, with control ROI and a Bayesian rate update | Loss exceedance curve, ROI with uncertainty per control, one-page brief for leadership | Public |
 | [**soc-alert-triage-simulation**][soc-sim] | Discrete-event simulation of a two-tier security operations team | One more tier-2 analyst cuts confirmed-incident wait from 33.9 to 4.4 minutes | Public |
-| **security-budget-optimizer** | Mixed-integer program that chooses the security controls that remove the most expected loss for a budget | Verified optimal against all 262,144 combinations | *Coming soon* |
+| [**security-budget-optimizer**][budget-opt] | Mixed-integer program that chooses the security controls that remove the most expected loss for a budget | Verified optimal against all 262,144 combinations | *Coming soon* |
 
 ### Security Labs
 
@@ -142,12 +142,12 @@ I'm open to data analyst, data scientist, and entry-level security roles, and I'
 [malware-dns]:   https://github.com/casildata/malware-dns-threat-detection-ml
 [cyber-risk]:    https://github.com/casildata/cyber-risk-monte-carlo
 [soc-sim]:       https://github.com/casildata/soc-alert-triage-simulation
+[budget-opt]:    https://github.com/casildata/security-budget-optimizer
+[spam]:          https://github.com/casildata/email-spam-detection-ml
 
 <!-- Not published yet:
   [covid-etl]:     https://github.com/casildata/covid-social-media-etl-pipeline
   [nba-dw]:        https://github.com/casildata/nba-star-schema-data-warehouse
-  [spam]:          https://github.com/casildata/email-spam-detection-ml
   [wine]:          https://github.com/casildata/wine-quality-multivariate-analysis
-  [budget-opt]:    https://github.com/casildata/security-budget-optimizer
   [security-labs]: https://github.com/casildata/security-labs-writeups
 -->
