@@ -81,7 +81,7 @@ Each project started as Texas Tech graduate coursework and was rebuilt to run fr
 |---|---|---|---|
 | [**malware-dns-threat-detection-ml**][malware-dns] | Classifies malware from memory-forensics features and flags malicious domains from DNS name features | Malware: 99.4–100% recall on families held out of training. Domains: 17–33% recall at a 1% false-positive budget, with a write-up of why | Public |
 | [**email-spam-detection-ml**][spam] | Compares five classifiers and an ensemble for spam filtering | Random forest 94.95% accuracy; found and fixed a data-leakage bug in the kNN model | Public |
-| **wine-quality-multivariate-analysis** | PCA, clustering, outlier detection, and discriminant analysis on 6,497 wines | k-means separates red from white with 98.6% agreement; fixes an outlier-rule bug in the original coursework | *Coming soon* |
+| [**wine-quality-multivariate-analysis**][wine] | PCA, clustering, outlier detection, and discriminant analysis on 6,497 wines | k-means separates red from white with 98.6% agreement; fixes an outlier-rule bug in the original coursework | Public |
 
 ### Simulation, Optimization & Risk
 
@@ -144,10 +144,10 @@ I'm open to data analyst, data scientist, and entry-level security roles, and I'
 [soc-sim]:       https://github.com/casildata/soc-alert-triage-simulation
 [budget-opt]:    https://github.com/casildata/security-budget-optimizer
 [spam]:          https://github.com/casildata/email-spam-detection-ml
+[wine]:          https://github.com/casildata/wine-quality-multivariate-analysis
 
 <!-- Not published yet:
   [covid-etl]:     https://github.com/casildata/covid-social-media-etl-pipeline
   [nba-dw]:        https://github.com/casildata/nba-star-schema-data-warehouse
-  [wine]:          https://github.com/casildata/wine-quality-multivariate-analysis
   [security-labs]: https://github.com/casildata/security-labs-writeups
 -->
