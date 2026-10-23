@@ -11,18 +11,21 @@ I work in Python, R, and SQL: cleaning and joining messy data, building models, 
 
 I earned an M.S. in Data Science from Texas Tech University and a B.B.A. in Management Information Systems from Angelo State University.
 
-Most of my work experience is in operations, where I learned to use data to fix real problems. At Frito-Lay I owned raw-material forecasting and managed inventory control. Before that, I spent nearly seven years in a regulated medical-device environment (Johnson & Johnson MedTech), where I ran root-cause investigations, supported CAPA initiatives, and kept records audit-ready.
+Most of my work experience is in operations, where I learned to use data to fix real problems. At Frito-Lay, I owned raw-material forecasting and site-wide ordering; I also managed inventory analytics and accounting. Before that, I spent nearly seven years in a regulated medical-device environment (Johnson & Johnson MedTech), where I conducted root-cause investigations, supported CAPA initiatives, and kept records audit-ready.
 
-My projects cover the full range of data work: ETL pipelines, SQL data warehouses, statistics, machine learning, and simulation. I'm applying many of those skills to cybersecurity, an area I'm growing into through hands-on training. I'm not an expert in any of these areas yet, and each repo lists its limitations alongside its results.
+My projects cover the full range of data work: ETL pipelines, SQL data warehouses, statistics, machine learning, and simulation. I'm applying many of those skills to cybersecurity, through hands-on simulation and private home labs with virtual machines. My projects are highlighted below and each repo lists its results alongside limitations.
 
 ---
 
 ## Current Focus
 
 - 📊 Open to data analyst and data scientist roles
-- 📂 Publishing the rest of my portfolio repos
-- 🛡️ Completing a Cyber Security Specialist training program, with CompTIA Security+ and CySA+ as my next goals
-- 🐍 Doing more of my modeling work in Python, alongside R
+- 📂 Publishing portfolio repos
+- 🛡️ Completing a Cyber Security Specialist program
+  - CompTIA Security+, Linux+, and Cybersecurity Analyst (CySA+)
+  - EC-Council Certified Ethical Hacker (CEH)
+  - Systems Security Certified Practitioner (SSCP)
+- 🐍 Doing modeling work in Python and R
 
 ---
 
@@ -53,9 +56,9 @@ My projects cover the full range of data work: ETL pipelines, SQL data warehouse
 **Workflow:** Git · GitHub Actions · VS Code · Linux shell · pytest · testthat
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
@@ -66,9 +69,9 @@ My projects cover the full range of data work: ETL pipelines, SQL data warehouse
 
 ## Featured Projects
 
-Each project started as Texas Tech graduate coursework and was rebuilt to run from a clean clone, with results and limitations written down.
+Some projects started as Texas Tech graduate coursework and was rebuilt to run from a clean clone. Each project comes with results, limitations, and improvement opportunities.
 
-### Data Analysis & Engineering
+### Data Analysis & Data Modeling
 
 | Project | What it does | Key result | Status |
 |---|---|---|---|
@@ -83,7 +86,7 @@ Each project started as Texas Tech graduate coursework and was rebuilt to run fr
 | [**email-spam-detection-ml**][spam] | Compares five classifiers and an ensemble for spam filtering | Random forest 94.95% accuracy; found and fixed a data-leakage bug in the kNN model | Public |
 | [**wine-quality-multivariate-analysis**][wine] | PCA, clustering, outlier detection, and discriminant analysis on 6,497 wines | k-means separates red from white with 98.6% agreement; fixes an outlier-rule bug in the original coursework | Public |
 
-### Simulation, Optimization & Risk
+### Simulation, Optimization, & Risk
 
 | Project | What it does | Key result | Status |
 |---|---|---|---|
