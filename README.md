@@ -71,34 +71,94 @@ My projects cover the full range of data work: ETL pipelines, SQL data warehouse
 
 Some projects started as Texas Tech graduate coursework and was rebuilt to run from a clean clone. Each project comes with results, limitations, and improvement opportunities.
 
-### Data Analysis & Data Modeling
 
-| Project | What it does | Key result | Status |
-|---|---|---|---|
-| **covid-social-media-etl-pipeline** | Python ETL that joins four public datasets with mismatched keys, grains, and date formats; drops PII before aggregation | Cases and reported anxiety moved together over 27 periods (r = 0.80, not causal); 2026 refactor matches the original outputs exactly | *Coming soon* |
-| **nba-star-schema-data-warehouse** | Star-schema warehouse with an ETL pipeline, data-quality checks, and 8 analytic SQL queries | Rejects all 3 planted corrupt rows; 8/8 tests pass | *Coming soon* |
+<table width="100%">
+  <tbody>
+    <!-- SECTION 1 -->
+    <tr>
+      <td colspan="3" style="border: none;"><h3>Data Analysis & Data Modeling</h3></td>
+    </tr>
+    <tr style="font-weight: bold; text-align: left;">
+      <td width="20%" style="padding: 8px;">Project</td>
+      <td width="40%" style="padding: 8px;">What it does</td>
+      <td width="40%" style="padding: 8px;">Key result</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/casildata/covid-social-media-etl-pipeline"><b>covid-social-media-etl-pipeline</b></a></td>
+      <td>Python ETL that joins four public datasets with mismatched keys, grains, and date formats; drops PII before aggregation</td>
+      <td>Cases and reported anxiety moved together over 27 periods (r = 0.80, not causal); 2026 refactor matches the original outputs exactly</td>
+    </tr>
+    <tr>
+      <td><b>nba-star-schema-data-warehouse</b></td>
+      <td>Star-schema warehouse with an ETL pipeline, data-quality checks, and 8 analytic SQL queries</td>
+      <td>Rejects all 3 planted corrupt rows; 8/8 tests pass</td>
+    </tr>
+    <!-- SECTION 2 -->
+    <tr>
+      <td colspan="3" style="border: none;"><h3>Data Science & Machine Learning</h3></td>
+    </tr>
+    <tr style="font-weight: bold; text-align: left;">
+      <td style="padding: 8px;">Project</td>
+      <td style="padding: 8px;">What it does</td>
+      <td style="padding: 8px;">Key result</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/casildata/malware-dns-threat-detection-ml"><b>malware-dns-threat-detection-ml</b></a></td>
+      <td>Classifies malware from memory-forensics features and flags malicious domains from DNS name features</td>
+      <td>Malware: 99.4–100% recall on families held out of training. Domains: 17–33% recall at a 1% false-positive budget, with a write-up of why</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/casildata/email-spam-detection-ml"><b>email-spam-detection-ml</b></a></td>
+      <td>Compares five classifiers and an ensemble for spam filtering</td>
+      <td>Random forest 94.95% accuracy; found and fixed a data-leakage bug in the kNN model</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/casildata/wine-quality-multivariate-analysis"><b>wine-quality-multivariate-analysis</b></a></td>
+      <td>PCA, clustering, outlier detection, and discriminant analysis on 6,497 wines</td>
+      <td>k-means separates red from white with 98.6% agreement; fixes an outlier-rule bug in the original coursework</td>
+    </tr>
+    <!-- SECTION 3 -->
+    <tr>
+      <td colspan="3" style="border: none;"><h3>Simulation, Optimization, & Risk</h3></td>
+    </tr>
+    <tr style="font-weight: bold; text-align: left;">
+      <td style="padding: 8px;">Project</td>
+      <td style="padding: 8px;">What it does</td>
+      <td style="padding: 8px;">Key result</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/casildata/cyber-risk-monte-carlo"><b>cyber-risk-monte-carlo</b></a></td>
+      <td>Monte Carlo model of annual cyber losses, with control ROI and a Bayesian rate update</td>
+      <td>Loss exceedance curve, ROI with uncertainty per control, one-page brief for leadership</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/casildata/soc-alert-triage-simulation"><b>soc-alert-triage-simulation</b></a></td>
+      <td>Discrete-event simulation of a two-tier security operations team</td>
+      <td>One more tier-2 analyst cuts confirmed-incident wait from 33.9 to 4.4 minutes</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/casildata/security-budget-optimizer"><b>security-budget-optimizer</b></a></td>
+      <td>Mixed-integer program that chooses the security controls that remove the most expected loss for a budget</td>
+      <td>Verified optimal against all 262,144 combinations</td>
+    </tr>
+    <!-- SECTION 4 -->
+    <tr>
+      <td colspan="3" style="border: none;"><h3>Security Labs</h3></td>
+    </tr>
+    <tr style="font-weight: bold; text-align: left;">
+      <td style="padding: 8px;">Project</td>
+      <td style="padding: 8px;">What it does</td>
+      <td style="padding: 8px;">Key result</td>
+    </tr>
+    <tr>
+      <td><b>security-labs-writeups</b></td>
+      <td>Vulnerability scanning, packet analysis, PKI, web attacks, and host hardening</td>
+      <td><i>Coming soon</i></td>
+    </tr>
+  </tbody>
+</table>
 
-### Data Science & Machine Learning
 
-| Project | What it does | Key result | Status |
-|---|---|---|---|
-| [**malware-dns-threat-detection-ml**][malware-dns] | Classifies malware from memory-forensics features and flags malicious domains from DNS name features | Malware: 99.4–100% recall on families held out of training. Domains: 17–33% recall at a 1% false-positive budget, with a write-up of why | Public |
-| [**email-spam-detection-ml**][spam] | Compares five classifiers and an ensemble for spam filtering | Random forest 94.95% accuracy; found and fixed a data-leakage bug in the kNN model | Public |
-| [**wine-quality-multivariate-analysis**][wine] | PCA, clustering, outlier detection, and discriminant analysis on 6,497 wines | k-means separates red from white with 98.6% agreement; fixes an outlier-rule bug in the original coursework | Public |
-
-### Simulation, Optimization, & Risk
-
-| Project | What it does | Key result | Status |
-|---|---|---|---|
-| [**cyber-risk-monte-carlo**][cyber-risk] | Monte Carlo model of annual cyber losses, with control ROI and a Bayesian rate update | Loss exceedance curve, ROI with uncertainty per control, one-page brief for leadership | Public |
-| [**soc-alert-triage-simulation**][soc-sim] | Discrete-event simulation of a two-tier security operations team | One more tier-2 analyst cuts confirmed-incident wait from 33.9 to 4.4 minutes | Public |
-| [**security-budget-optimizer**][budget-opt] | Mixed-integer program that chooses the security controls that remove the most expected loss for a budget | Verified optimal against all 262,144 combinations | Public |
-
-### Security Labs
-
-| Project | What it does | Status |
-|---|---|---|
-| **security-labs-writeups** | Five course lab write-ups: vulnerability scanning, packet analysis, PKI, web attacks, and host hardening | *Coming soon* |
 
 ---
 
@@ -148,9 +208,10 @@ I'm open to data analyst, data scientist, and entry-level security roles, and I'
 [budget-opt]:    https://github.com/casildata/security-budget-optimizer
 [spam]:          https://github.com/casildata/email-spam-detection-ml
 [wine]:          https://github.com/casildata/wine-quality-multivariate-analysis
+[covid-etl]:     https://github.com/casildata/covid-social-media-etl-pipeline
 
 <!-- Not published yet:
-  [covid-etl]:     https://github.com/casildata/covid-social-media-etl-pipeline
+  
   [nba-dw]:        https://github.com/casildata/nba-star-schema-data-warehouse
   [security-labs]: https://github.com/casildata/security-labs-writeups
 -->
