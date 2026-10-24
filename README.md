@@ -3,7 +3,7 @@
 **Data Analyst and Data Scientist (M.S. Data Science) with a growing focus on security analytics.**
 I work in Python, R, and SQL: cleaning and joining messy data, building models, and explaining results to people who need to act on them.
 
-📍 Dallas, TX &nbsp;·&nbsp; 🎯 Seeking analytics, machine learning, and cybersecurity roles
+📍 Dallas, TX
 
 ---
 
@@ -176,31 +176,87 @@ Some projects started as Texas Tech graduate coursework and were rebuilt to run 
 
 ## Certifications & Training
 
-| Credential | Issuer | Date |
-|---|---|---|
-| Cyber Security Specialist Program | TopTalent Learning | In progress |
-| Operating Systems Basics | Cisco Networking Academy | Oct 2026 |
-| Computer Hardware Basics | Cisco Networking Academy | Sep 2026 |
-| Python for Data Science and AI | IBM | Jun 2023 |
-| PCEP – Certified Entry-Level Python Programmer | OpenEDG Python Institute | Jul 2022 |
-| QMS Internal Auditor training (ISO 9001 / ISO 13485) | Exemplar Global-certified course | Jan 2020 |
-| Network Pro Certification | TestOut | May 2019 |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="45%" align="left">Credential</th>
+      <th width="40%" align="left">Issuer</th>
+      <th width="15%" align="left">Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cyber Security Specialist Program</td>
+      <td>TopTalent Learning</td>
+      <td>In progress</td>
+    </tr>
+    <tr>
+      <td>Operating Systems Basics</td>
+      <td>Cisco Networking Academy</td>
+      <td>Oct 2026</td>
+    </tr>
+    <tr>
+      <td>Computer Hardware Basics</td>
+      <td>Cisco Networking Academy</td>
+      <td>Sep 2026</td>
+    </tr>
+    <tr>
+      <td>Python for Data Science and AI</td>
+      <td>IBM</td>
+      <td>Jun 2023</td>
+    </tr>
+    <tr>
+      <td>PCEP – Certified Entry-Level Python Programmer</td>
+      <td>OpenEDG Python Institute</td>
+      <td>Jul 2022</td>
+    </tr>
+    <tr>
+      <td>QMS Internal Auditor training (ISO 9001 / ISO 13485)</td>
+      <td>Exemplar Global-certified course</td>
+      <td>Jan 2020</td>
+    </tr>
+    <tr>
+      <td>Network Pro Certification</td>
+      <td>TestOut</td>
+      <td>May 2019</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
 ## Education
 
-| Study | Institution | Date |
-|---|---|---|
-| Master of Science, Data Science | Texas Tech University, Lubbock, TX | May 2022 |
-| Certificate in Applied Statistics | Angelo State University, San Angelo, TX | Dec 2020 |
-| Bachelor of Business Administration, Management Information Systems (Cum Laude) | Angelo State University, San Angelo, TX | Dec 2019 |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="45%" align="left">Study</th>
+      <th width="40%" align="left">Institution</th>
+      <th width="15%" align="left">Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Master of Science, Data Science</td>
+      <td>Texas Tech University, Lubbock, TX</td>
+      <td>May 2022</td>
+    </tr>
+    <tr>
+      <td>Certificate in Applied Statistics</td>
+      <td>Angelo State University, San Angelo, TX</td>
+      <td>Dec 2020</td>
+    </tr>
+    <tr>
+      <td>Bachelor of Business Administration, Management Information Systems (Cum Laude)</td>
+      <td>Angelo State University, San Angelo, TX</td>
+      <td>Dec 2019</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
 ## Let's Connect
-
-I'm open to data analyst, data scientist, and entry-level security roles, and I'm glad to talk with people working in any of those areas.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-javiercasildo-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/javiercasildo)
 [![Email](https://img.shields.io/badge/Email-javier.casildo01%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:javier.casildo01@gmail.com)
