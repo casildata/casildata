@@ -69,19 +69,16 @@ My projects cover the full range of data work: ETL pipelines, SQL data warehouse
 
 ## Featured Projects
 
-Some projects started as Texas Tech graduate coursework and was rebuilt to run from a clean clone. Each project comes with results, limitations, and improvement opportunities.
+Some projects started as Texas Tech graduate coursework and were rebuilt to run from a clean clone. Each project comes with results, limitations, and improvement opportunities.
 
-<table width="100%">
-  <thead>
-    <tr style="background-color: transparent;">
-      <td colspan="3" style="padding: 0 0 10px 0; border-bottom: none;"><h3>Data Analysis & Data Modeling</h3></td>
-    </tr>
-  </thead>
+### Data Analysis & Data Modeling
+
+<table>
   <thead>
     <tr>
-      <th width="20%">Project</th>
-      <th width="40%">What it does</th>
-      <th width="40%">Key result</th>
+      <th width="20%" align="left">Project</th>
+      <th width="40%" align="left">What it does</th>
+      <th width="40%" align="left">Key result</th>
     </tr>
   </thead>
   <tbody>
@@ -95,19 +92,20 @@ Some projects started as Texas Tech graduate coursework and was rebuilt to run f
       <td>Star-schema warehouse with an ETL pipeline, data-quality checks, and 8 analytic SQL queries</td>
       <td>Rejects all 3 planted corrupt rows; 8/8 tests pass</td>
     </tr>
-    <!-- Section 2 -->
-    <thead>
-      <tr style="background-color: transparent;">
-        <td colspan="3" style="padding: 0 0 10px 0; border-bottom: none;"><h3>Data Science & Machine Learning</h3></td>
-      </tr>
-    </thead>
-    <thead>
-      <tr>
-        <th width="20%">Project</th>
-        <th width="40%">What it does</th>
-        <th width="40%">Key result</th>
-      </tr>
-    </thead>
+  </tbody>
+</table>
+
+### Data Science & Machine Learning
+
+<table>
+  <thead>
+    <tr>
+      <th width="20%" align="left">Project</th>
+      <th width="40%" align="left">What it does</th>
+      <th width="40%" align="left">Key result</th>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
       <td><a href="https://github.com/casildata/malware-dns-threat-detection-ml"><b>malware-dns-threat-detection-ml</b></a></td>
       <td>Classifies malware from memory-forensics features and flags malicious domains from DNS name features</td>
@@ -123,17 +121,20 @@ Some projects started as Texas Tech graduate coursework and was rebuilt to run f
       <td>PCA, clustering, outlier detection, and discriminant analysis on 6,497 wines</td>
       <td>k-means separates red from white with 98.6% agreement; fixes an outlier-rule bug in the original coursework</td>
     </tr>
-    <!-- Section 3 -->
-    <tr style="background-color: transparent;">
-      <td colspan="3" style="padding: 0 0 10px 0; border-bottom: none;"><h3>Simulation, Optimization, & Risk</h3></td>
+  </tbody>
+</table>
+
+### Simulation, Optimization, & Risk
+
+<table>
+  <thead>
+    <tr>
+      <th width="20%" align="left">Project</th>
+      <th width="40%" align="left">What it does</th>
+      <th width="40%" align="left">Key result</th>
     </tr>
-    <thead>
-      <tr>
-        <th width="20%">Project</th>
-        <th width="40%">What it does</th>
-        <th width="40%">Key result</th>
-      </tr>
-    </thead>
+  </thead>
+  <tbody>
     <tr>
       <td><a href="https://github.com/casildata/cyber-risk-monte-carlo"><b>cyber-risk-monte-carlo</b></a></td>
       <td>Monte Carlo model of annual cyber losses, with control ROI and a Bayesian rate update</td>
@@ -149,26 +150,27 @@ Some projects started as Texas Tech graduate coursework and was rebuilt to run f
       <td>Mixed-integer program that chooses the security controls that remove the most expected loss for a budget</td>
       <td>Verified optimal against all 262,144 combinations</td>
     </tr>
-    <!-- Section 4 -->
-    <tr style="background-color: transparent;">
-      <td colspan="3" style="padding: 0 0 10px 0; border-bottom: none;"><h3>Security Labs</h3></td>
+  </tbody>
+</table>
+
+### Security Labs
+
+<table>
+  <thead>
+    <tr>
+      <th width="20%" align="left">Project</th>
+      <th width="40%" align="left">What it does</th>
+      <th width="40%" align="left">Key result</th>
     </tr>
-    <thead>
-      <tr>
-        <th width="20%">Project</th>
-        <th width="40%">What it does</th>
-        <th width="40%">Key result</th>
-      </tr>
-    </thead>
+  </thead>
+  <tbody>
     <tr>
       <td><b>security-labs-writeups</b></td>
-      <td>Vulnerability scanning, packet analysis, PKI, web attacks, and host hardening</td>
+      <td>Five course lab write-ups: vulnerability scanning, packet analysis, PKI, web attacks, and host hardening</td>
       <td><i>Coming soon</i></td>
     </tr>
   </tbody>
 </table>
-
-
 
 ---
 
@@ -207,8 +209,7 @@ I'm open to data analyst, data scientist, and entry-level security roles, and I'
   PROJECT LINKS (not shown on the page)
   When you publish a repo:
     1. Move its line from "Not published yet" up to "Published" (outside this comment).
-    2. In the project table, change **repo-name** to [**repo-name**][ref].
-    3. Change its Status from "Publishing soon" to "Public".
+    2. In the project table, wrap <b>repo-name</b> in <a href="https://github.com/casildata/repo-name">...</a>.
 -->
 
 <!-- Published -->
@@ -221,7 +222,6 @@ I'm open to data analyst, data scientist, and entry-level security roles, and I'
 [covid-etl]:     https://github.com/casildata/covid-social-media-etl-pipeline
 
 <!-- Not published yet:
-  
   [nba-dw]:        https://github.com/casildata/nba-star-schema-data-warehouse
   [security-labs]: https://github.com/casildata/security-labs-writeups
 -->
