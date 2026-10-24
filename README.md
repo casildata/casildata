@@ -71,18 +71,20 @@ My projects cover the full range of data work: ETL pipelines, SQL data warehouse
 
 Some projects started as Texas Tech graduate coursework and was rebuilt to run from a clean clone. Each project comes with results, limitations, and improvement opportunities.
 
-
 <table width="100%">
-  <tbody>
-    <!-- SECTION 1 -->
+  <thead>
+    <tr style="background-color: transparent;">
+      <td colspan="3" style="padding: 0 0 10px 0; border-bottom: none;"><h3>Data Analysis & Data Modeling</h3></td>
+    </tr>
+  </thead>
+  <thead>
     <tr>
-      <td colspan="3" style="border: none;"><h3>Data Analysis & Data Modeling</h3></td>
+      <th width="20%">Project</th>
+      <th width="40%">What it does</th>
+      <th width="40%">Key result</th>
     </tr>
-    <tr style="font-weight: bold; text-align: left;">
-      <td width="20%" style="padding: 8px;">Project</td>
-      <td width="40%" style="padding: 8px;">What it does</td>
-      <td width="40%" style="padding: 8px;">Key result</td>
-    </tr>
+  </thead>
+  <tbody>
     <tr>
       <td><a href="https://github.com/casildata/covid-social-media-etl-pipeline"><b>covid-social-media-etl-pipeline</b></a></td>
       <td>Python ETL that joins four public datasets with mismatched keys, grains, and date formats; drops PII before aggregation</td>
@@ -93,15 +95,19 @@ Some projects started as Texas Tech graduate coursework and was rebuilt to run f
       <td>Star-schema warehouse with an ETL pipeline, data-quality checks, and 8 analytic SQL queries</td>
       <td>Rejects all 3 planted corrupt rows; 8/8 tests pass</td>
     </tr>
-    <!-- SECTION 2 -->
-    <tr>
-      <td colspan="3" style="border: none;"><h3>Data Science & Machine Learning</h3></td>
-    </tr>
-    <tr style="font-weight: bold; text-align: left;">
-      <td style="padding: 8px;">Project</td>
-      <td style="padding: 8px;">What it does</td>
-      <td style="padding: 8px;">Key result</td>
-    </tr>
+    <!-- Section 2 -->
+    <thead>
+      <tr style="background-color: transparent;">
+        <td colspan="3" style="padding: 0 0 10px 0; border-bottom: none;"><h3>Data Science & Machine Learning</h3></td>
+      </tr>
+    </thead>
+    <thead>
+      <tr>
+        <th width="20%">Project</th>
+        <th width="40%">What it does</th>
+        <th width="40%">Key result</th>
+      </tr>
+    </thead>
     <tr>
       <td><a href="https://github.com/casildata/malware-dns-threat-detection-ml"><b>malware-dns-threat-detection-ml</b></a></td>
       <td>Classifies malware from memory-forensics features and flags malicious domains from DNS name features</td>
@@ -117,15 +123,17 @@ Some projects started as Texas Tech graduate coursework and was rebuilt to run f
       <td>PCA, clustering, outlier detection, and discriminant analysis on 6,497 wines</td>
       <td>k-means separates red from white with 98.6% agreement; fixes an outlier-rule bug in the original coursework</td>
     </tr>
-    <!-- SECTION 3 -->
-    <tr>
-      <td colspan="3" style="border: none;"><h3>Simulation, Optimization, & Risk</h3></td>
+    <!-- Section 3 -->
+    <tr style="background-color: transparent;">
+      <td colspan="3" style="padding: 0 0 10px 0; border-bottom: none;"><h3>Simulation, Optimization, & Risk</h3></td>
     </tr>
-    <tr style="font-weight: bold; text-align: left;">
-      <td style="padding: 8px;">Project</td>
-      <td style="padding: 8px;">What it does</td>
-      <td style="padding: 8px;">Key result</td>
-    </tr>
+    <thead>
+      <tr>
+        <th width="20%">Project</th>
+        <th width="40%">What it does</th>
+        <th width="40%">Key result</th>
+      </tr>
+    </thead>
     <tr>
       <td><a href="https://github.com/casildata/cyber-risk-monte-carlo"><b>cyber-risk-monte-carlo</b></a></td>
       <td>Monte Carlo model of annual cyber losses, with control ROI and a Bayesian rate update</td>
@@ -141,15 +149,17 @@ Some projects started as Texas Tech graduate coursework and was rebuilt to run f
       <td>Mixed-integer program that chooses the security controls that remove the most expected loss for a budget</td>
       <td>Verified optimal against all 262,144 combinations</td>
     </tr>
-    <!-- SECTION 4 -->
-    <tr>
-      <td colspan="3" style="border: none;"><h3>Security Labs</h3></td>
+    <!-- Section 4 -->
+    <tr style="background-color: transparent;">
+      <td colspan="3" style="padding: 0 0 10px 0; border-bottom: none;"><h3>Security Labs</h3></td>
     </tr>
-    <tr style="font-weight: bold; text-align: left;">
-      <td style="padding: 8px;">Project</td>
-      <td style="padding: 8px;">What it does</td>
-      <td style="padding: 8px;">Key result</td>
-    </tr>
+    <thead>
+      <tr>
+        <th width="20%">Project</th>
+        <th width="40%">What it does</th>
+        <th width="40%">Key result</th>
+      </tr>
+    </thead>
     <tr>
       <td><b>security-labs-writeups</b></td>
       <td>Vulnerability scanning, packet analysis, PKI, web attacks, and host hardening</td>
