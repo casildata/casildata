@@ -124,6 +124,25 @@ Some projects started as Texas Tech graduate coursework and were rebuilt to run 
   </tbody>
 </table>
 
+### Applied AI & Tools
+
+<table>
+  <thead>
+    <tr>
+      <th width="20%" align="left">Project</th>
+      <th width="40%" align="left">What it does</th>
+      <th width="40%" align="left">Key result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/casildata/autoflashcards"><b>autoflashcards</b></a></td>
+      <td>Python command-line tool that turns lecture PDFs and Markdown notes into Anki flashcard decks: layout-aware PDF parsing, five extraction rules, and an optional Claude or local Llama stage with prompt-injection defenses</td>
+      <td>Rules alone: 100% precision, 80% recall on 35 hand-written gold cards. With Claude Haiku: 94% recall at 86% precision. No card obeyed a hidden prompt injection</td>
+    </tr>
+  </tbody>
+</table>
+
 ### Simulation, Optimization, & Risk
 
 <table>
@@ -276,6 +295,7 @@ Some projects started as Texas Tech graduate coursework and were rebuilt to run 
 [spam]:          https://github.com/casildata/email-spam-detection-ml
 [wine]:          https://github.com/casildata/wine-quality-multivariate-analysis
 [covid-etl]:     https://github.com/casildata/covid-social-media-etl-pipeline
+[autoflashcards]: https://github.com/casildata/autoflashcards
 
 <!-- Not published yet:
   [nba-dw]:        https://github.com/casildata/nba-star-schema-data-warehouse
